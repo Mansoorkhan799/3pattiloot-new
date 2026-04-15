@@ -465,30 +465,6 @@ export default function ThreePattiSkyForPCPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-gradient-to-r from-[#0ea5e9] to-[#6366f1] rounded-2xl p-8 md:p-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            Ready to Play on PC?
-          </h2>
-          <p className="text-xl text-white mb-8 opacity-90">
-            Download 3 Patti Loot and install it using your favorite emulator!
-          </p>
-          <a 
-            href="https://3pattilootpkk1.com/?from_gameid=5208127&channelCode=200000"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-[#0ea5e9] hover:bg-gray-100 font-bold py-4 px-12 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
-          >
-            <span className="text-lg">DOWNLOAD FOR PC</span>
-            <div className="ml-3 bg-[#f97316] rounded-full p-2">
-              <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-              </svg>
-            </div>
-          </a>
-        </div>
-      </section>
 
       {/* Back to Home */}
       <section className="py-8 px-4 md:px-8 max-w-7xl mx-auto text-center">
