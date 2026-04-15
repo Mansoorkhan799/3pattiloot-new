@@ -1,0 +1,23 @@
+{
+  "name": "3 Patti Loot",
+  "short_name": "3Patti Loot",
+  "description": "Pakistan's trusted card gaming platform offering Teen Patti, Rummy, Dragon vs Tiger and more. Earn real cash rewards!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06091F",
+  "theme_color": "#06091F",
+  "icons": [
+    {
+      "src": "/3-patti-loot.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/3-patti-loot.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}
