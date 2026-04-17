@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link';
 import { Metadata } from 'next';
-import ScreenshotSlider from '@/components/ScreenshotSlider';
 
 export const metadata: Metadata = {
   title: "3 Patti Loot Pakistan – Free Download Official APK 2026",
@@ -339,7 +338,29 @@ export default function Home() {
 
       {/* ─── SCREENSHOTS ──────────────────────────────────────── */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <ScreenshotSlider slides={screenshots} />
+        <div className="bg-[#06091F] border border-gray-800/40 rounded-2xl p-6 md:p-10">
+          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-[#FFA500] text-center">3Patti Loot App Screenshots</h2>
+          <p className="text-center text-gray-400 text-sm mb-8">Click any image to view full screen</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            {screenshots.map((s, i) => (
+              <a key={i} href={s.src} target="_blank" rel="noopener noreferrer" className="group block rounded-2xl overflow-hidden border border-gray-800 hover:border-[#FFA500]/50 transition-all shadow-lg hover:shadow-[#FFA500]/10">
+                <div className="relative aspect-video w-full">
+                  <Image
+                    src={s.src}
+                    alt={s.alt}
+                    fill
+                    unoptimized
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="bg-[#0A1029] px-4 py-2.5 text-center">
+                  <p className="text-white text-sm font-semibold">{s.label}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* ─── FEATURES ──────────────────────────────────────────── */}
